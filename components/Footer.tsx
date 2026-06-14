@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer style={{ padding: "clamp(70px,10vh,120px) clamp(20px,5vw,64px) clamp(50px,7vh,80px)", borderTop: "1px solid rgba(255,255,255,.05)" }}>
       <div className="max-w-[1120px] mx-auto">
-        <div className="font-display font-semibold text-center" style={{ letterSpacing: "0.32em", fontSize: "15px", color: "#9A9AAF" }}>
+        <div className="font-display font-semibold" style={{ letterSpacing: "0.32em", fontSize: "15px", color: "#9A9AAF" }}>
           CIVIL&nbsp;TWILIGHT
         </div>
         <p className="mt-[18px] mb-0 text-sm" style={{ color: "#6E6E84", maxWidth: "46ch", lineHeight: 1.7 }}>

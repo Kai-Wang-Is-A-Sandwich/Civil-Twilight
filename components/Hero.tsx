@@ -44,10 +44,7 @@ export default function Hero() {
   useEffect(() => {
     if (!titleRef.current || !subtitleRef.current || !bodyRef.current || !chevronRef.current) return;
 
-    const split = new SplitText(titleRef.current, { type: "chars, words" });
-    split.words.forEach((word) => {
-      (word as HTMLElement).style.whiteSpace = "nowrap";
-    });
+    const split = new SplitText(titleRef.current, { type: "chars" });
 
     const tl = gsap.timeline({ delay: 0.3 });
     tl.from(split.chars, {
@@ -89,14 +86,14 @@ export default function Hero() {
       <div className="relative z-[2] max-w-[860px]">
         <h1
           ref={titleRef}
-          className="font-display font-medium text-white m-0 leading-[1]"
+          className="font-display font-medium text-white m-0 leading-[1] flex flex-col items-center"
           style={{
             letterSpacing: "0.3em",
             fontSize: "clamp(38px, 8.5vw, 108px)",
-            textIndent: "0.3em",
           }}
         >
-          CIVIL TWILIGHT
+          <span style={{ whiteSpace: "nowrap", transform: "translateX(0.15em)" }}>CIVIL</span>
+          <span style={{ whiteSpace: "nowrap", transform: "translateX(0.15em)" }}>TWILIGHT</span>
         </h1>
         <p
           ref={subtitleRef}
