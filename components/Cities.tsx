@@ -242,21 +242,31 @@ export default function Cities() {
             <span className="font-display font-medium text-white" style={{ fontSize: "clamp(22px,2.6vw,30px)" }}>Building Height &amp; Density</span>
           </div>
           <p className="font-display font-light m-0 mb-[22px]" style={{ fontSize: "clamp(17px,1.7vw,21px)", color: "#5B8DEF" }}>
-            The canyon effect
+            The buildings themselves are the source.
           </p>
           <div className="flex flex-col gap-5 font-light text-[#E2E2EC]" style={{ fontSize: "clamp(15px,1.3vw,17px)", lineHeight: 1.78 }}>
             <p className="m-0">
-              Tall buildings in dense urban cores act as reflective surfaces. Light from streets,
-              signage, and interior spaces bounces off glass and concrete facades, redirecting it
-              upward and outward at angles that amplify skyglow far beyond the original source. A
-              downtown skyline does not just produce light pollution from its own fixtures; it
-              multiplies the light from every source around it.
+              In dense urban cores, buildings are among the largest direct sources of light
+              pollution. Interior lighting pours through windows all night, especially in
+              glass-curtain-wall office towers where entire floors stay illuminated long after
+              workers leave. Decorative facade lighting, rooftop signage, and architectural
+              floodlights add to the output. A single high-rise can beam light outward and upward
+              from hundreds of windows across dozens of stories.
             </p>
             <p className="m-0">
-              The effect compounds with height. Each additional story of reflective facade
-              increases the total surface area redirecting light into the upper atmosphere. Cities
-              with glass-curtain-wall skylines produce measurably more skyglow per capita than
-              cities of similar population with shorter and less reflective buildings.
+              The scale of the problem tracks with density. A downtown core concentrates thousands
+              of individual light sources into a small footprint: lobby lighting, retail
+              storefronts, illuminated signage, parking garages, and the windows of every occupied
+              and unoccupied floor above. Each source on its own is minor. Together, they produce
+              the intense skyglow domes visible over every major city.
+            </p>
+            <p className="m-0">
+              Building design choices matter enormously here. Exterior facade lighting that washes
+              a building in light sends much of that energy into the sky. Interior lighting in
+              floor-to-ceiling glass facades turns every office into an outward-facing light
+              source. Recessed lighting, occupancy sensors, automated blinds, and dimming
+              schedules after business hours could substantially reduce a building&apos;s
+              contribution to skyglow, but few cities require any of these measures.
             </p>
           </div>
         </div>
